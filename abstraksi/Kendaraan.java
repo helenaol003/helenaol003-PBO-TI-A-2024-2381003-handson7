@@ -7,7 +7,9 @@ public class Kendaraan {
         this.warna = warna;
     }
 
-    //abstract void bergerak();
+    void bergerak() {
+
+    }
 
     void info() {
         System.out.println("Warna Kendaraan: " + warna);
